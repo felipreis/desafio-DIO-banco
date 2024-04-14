@@ -1,5 +1,5 @@
-
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     
@@ -18,8 +18,12 @@ public class Main {
 
         contaPoupanca.sacar(75.00);
 
-        contaCorrente.exibirExtrato();
-        contaPoupanca.exibirExtrato();
+        //contaCorrente.exibirExtrato();
+        //contaPoupanca.exibirExtrato();
+
+        Banco.lista(contaCorrente,contaPoupanca);
+
+
 
 
 
